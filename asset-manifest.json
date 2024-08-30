@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PiyumaliSandunika/CO528-Assignment2-E18318/static/css/main.3a7442ce.css",
+    "main.js": "/PiyumaliSandunika/CO528-Assignment2-E18318/static/js/main.485b9e8e.js",
+    "static/js/453.41e50930.chunk.js": "/PiyumaliSandunika/CO528-Assignment2-E18318/static/js/453.41e50930.chunk.js",
+    "index.html": "/PiyumaliSandunika/CO528-Assignment2-E18318/index.html",
+    "main.3a7442ce.css.map": "/PiyumaliSandunika/CO528-Assignment2-E18318/static/css/main.3a7442ce.css.map",
+    "main.485b9e8e.js.map": "/PiyumaliSandunika/CO528-Assignment2-E18318/static/js/main.485b9e8e.js.map",
+    "453.41e50930.chunk.js.map": "/PiyumaliSandunika/CO528-Assignment2-E18318/static/js/453.41e50930.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a7442ce.css",
+    "static/js/main.485b9e8e.js"
+  ]
+}
