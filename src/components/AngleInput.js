@@ -10,7 +10,7 @@ const AngleInput = ({ angle, onChange }) => {
                 value={angle}
                 min="0"
                 max="360"
-                onChange={(e) => onChange(parseInt(e.target.value))}
+                onChange={(e) => onChange(parseInt((e.target.value)%360))}
             />
         </div>
     );

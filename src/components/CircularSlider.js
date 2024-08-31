@@ -9,8 +9,11 @@ const CircularSlider = ({ angle, onChange }) => {
         updateKnobPosition(angle);
     }, [angle]);
 
+    const normalizeAngle = (angle) => (angle % 360 + 360) % 360;
+
     const updateKnobPosition = (angle) => {
-        const radians = (angle - 90) * (Math.PI / 180); // Offset by 90 degrees to start at the top
+        const modValue = normalizeAngle(angle);
+        const radians = (modValue - 90) * (Math.PI / 180); // Offset by 90 degrees to start at the top
         const x = radius + radius * Math.cos(radians);
         const y = radius + radius * Math.sin(radians);
         if (knobRef.current) {
